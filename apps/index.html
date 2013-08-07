@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shengbin's Small Apps</title>
+<style type="text/css">
+	ul li {font-size:18px;}
+	img#pokeball {margin:0; padding:0; position:absolute;}
+	p#log {font-weight:bold; font-size:small; text-align:center; }
+</style>
+<!-- for Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30081581-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- end for Google Analytics -->
+<script type="text/javascript">
+	var pokeball = null;
+	var drag = false;
+	var height = window.innerHeight - 256 - 10;
+	var pos_y = 0;
+	var pos_x = Math.floor(Math.random() * (window.innerWidth - 256 - 10));
+	var velocity = 1;
+	var direction = 1;
+	var x, y;
+	function move_pokeball() {
+		if (drag)
+			return;
+		if ((direction == 1 && pos_y > height) || (direction == -1 && velocity < 0.1))
+			direction = -direction;
+		velocity =  (velocity + direction * 2) * 0.98;
+		pos_y += direction * velocity;
+		if (pos_y < height)
+			pokeball.style.top = pos_y + 'px';
+		setTimeout(move_pokeball, 10);
+	}
+	function start() {
+		pokeball = document.getElementById('pokeball');
+		pokeball.style.left = pos_x + 'px';
+		pokeball.onmousedown = function(e) {
+			x = e.pageX - pokeball.offsetLeft;
+			y = e.pageY - pokeball.offsetTop;
+			drag = true;
+			return false;
+		}
+		move_pokeball();
+	}
+	document.onmouseup = function() {
+		if (!drag)
+			return;
+		drag = false;
+		velocity = 1;
+		direction = 1;
+		document.body.style.cursor = 'default';
+		move_pokeball();
+	};
+	document.onmousemove = function(e) {
+		if (!drag)
+			return;
+		document.body.style.cursor = 'pointer';
+		pos_x = e.pageX - x;
+		pos_y = e.pageY - y;
+		pokeball.style.left = pos_x + 'px';
+		pokeball.style.top = pos_y + 'px';
+		return false;
+	};
+</script>
+</head>
+
+<body onload="start()">
+<h1 align="center">Shengbin's Small Apps</h1>
+<h2>Click to go:</h2>
+<ul>
+	<li><a href="baidu-it-for-you">Baidu It For You</a></li>
+	<li><a href="unibbs">UniBBS</a></li>
+	<li><a href="ipgateway">IPGateway</a></li>
+	<li><a href="chisha">ChiSha</a></li>
+</ul>
+<br><br><br>
+<hr>
+<img id="pokeball" src="pokeball.png" alt="Just play!" />
+</body>
+</html>
