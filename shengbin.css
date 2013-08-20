@@ -1,41 +1,27 @@
 body {
-	max-width:900px;
-	font-size:13px;
-	color:#444;
-	margin:0 auto;
-	background:#FAF9F5;
+	max-width: 900px;
+    font-size: 13px;
+    font-family: "微软雅黑";
+	background: #FAF9F5;
+    margin: auto;
 }
 .content h1 {
 	line-height: 32px;
 	font-size: 24px;
 	background: #333;
 	color: white;
-	text-align:center;
-	margin-left: auto;   
-	margin-right: auto;
+	text-align: center;
 }
 .content table {
 	border: 1px solid #888;
-	border-collapse: collapse;
+    border-collapse: collapse;
 	text-indent: 24px;
-	text-align:left;
-	margin-left: auto;   
-	margin-right: auto;
 }
 
-#english {
-	font-family:"微软雅黑";
-	width:50%;
+.content table td {
+    vertical-align: top;
+	width: 50%;
 	border: 1px solid #888;
-	border-collapse: collapse;
-	padding:10px;
-	vertical-align: top;
-}
-#chinese {
-	font-family:"微软雅黑";
-	width:50%;
-	border: 1px solid #888;
-	border-collapse: collapse;
-	padding:10px;
-	vertical-align: top;
+	padding: 10px;
+
 }

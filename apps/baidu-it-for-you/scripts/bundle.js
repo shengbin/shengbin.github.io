@@ -595,7 +595,7 @@ $.localize.data.lmgtfy = {
   urls: {
     logo: "",
     search: "http://www.baidu.com/s?wd=",
-    lucky_search: "http://baike.baidu.com/search?word="
+    lucky_search: "http://www.google.com/search?btnG=1&pws=0&q="
   }
 };
 
