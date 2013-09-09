@@ -1,20 +1,12 @@
-body {
-	text-align:center;
-	max-width:900px;
-	margin:0 auto;
-	font-family: arial, helvetica, sans-serif;
-	font-size: 18px;
-	color:#444;
-	background:#FAF9F5;
-}
 #movies {
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
 }
-ul {
+#movies ul {
 	margin:0 0 0 -24px;
 }
+
 #radio {
 	width:420px;
 	margin-left:auto;
@@ -25,4 +17,10 @@ ul {
 	width:150px;
 	float:right;
 	margin:-220px 0 0 40px;
+}
+
+.tagline {
+    margin:auto;
+    text-align:center;
+    font-size: 18px;
 }
