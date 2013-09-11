@@ -3,33 +3,33 @@ body {
     background: #FAF9F5;
 }
 
-header {
+.header {
     background-color:#333;
 }
-header p {
+.header p {
     float:right;
     position:relative;
     margin:0 10px 0 0;
 }
 
-nav ul, nav ul ul {
+.nav ul, .nav ul ul {
     list-style:none;
     margin:0;
     padding:0;
 }
-nav ul ul {
+.nav ul ul {
     height:0;
     left:0;
     overflow:hidden;
     position:absolute;
     top:32px;
 }
-nav ul li {
+.nav ul li {
     float:left;
     position:relative;
     width:100px;
 }
-nav ul li a, header p{
+.nav ul li a, .header p{
     -moz-transition:0.5s;
     -o-transition:0.5s;
     -webkit-transition:0.5s;
@@ -42,16 +42,16 @@ nav ul li a, header p{
     text-decoration:none;
     transition:0.5s;
 }
-nav ul li:hover > a {
+.nav ul li:hover > a {
     background:#111;
     border-color:#111;
     color:#FFF;
 }
-nav ul li:hover ul.subs {
+.nav ul li:hover ul.subs {
     height:auto;
     width:100px;
 }
-nav ul ul li {
+.nav ul ul li {
     -moz-transition:0.5s;
     -o-transition:0.5s;
     -webkit-transition:0.5s;
@@ -59,20 +59,20 @@ nav ul ul li {
     transition:0.5s;
     width:100%;
 }
-nav ul li ul li {
+.nav ul li ul li {
     -moz-transition-delay:0s;
     -o-transition-delay:0s;
     -webkit-transition-delay:0s;
     transition-delay:0s;
 }
-nav ul li:hover ul li {
+.nav ul li:hover ul li {
     opacity:1;
     -moz-transition-delay:0.5s;
     -o-transition-delay:0.5s;
     -webkit-transition-delay:0.5s;
     transition-delay:0.5s;
 }
-nav ul ul li a {
+.nav ul ul li a {
     background:#333;
     border-color:#222;
     color:#fff;
@@ -82,10 +82,10 @@ nav ul ul li a {
     -webkit-transition:1.5s;
     transition:1.5s;
 }
-nav ul li:hover ul li a {
+.nav ul li:hover ul li a {
     line-height:35px;
 }
-nav ul ul li a:hover {
+.nav ul ul li a:hover {
     background:#111;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
     background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
@@ -96,7 +96,7 @@ h1 {
     text-align:center;
 }
 
-main {
+.main {
     max-width:900px;
     margin: auto;
 	font-family: "微软雅黑", "Microsoft YaHei";
