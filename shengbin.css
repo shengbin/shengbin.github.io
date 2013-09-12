@@ -1,7 +1,8 @@
 body {
     margin:0;
     background: #FAF9F5;
-	font-family: "微软雅黑", "Microsoft YaHei";
+	font-family: "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	line-height: 1.5;
 }
 
 .header {
