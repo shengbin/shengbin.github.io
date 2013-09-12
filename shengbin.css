@@ -1,6 +1,7 @@
 body {
     margin:0;
     background: #FAF9F5;
+	font-family: "微软雅黑", "Microsoft YaHei";
 }
 
 .header {
@@ -99,7 +100,6 @@ h1 {
 .main {
     max-width:900px;
     margin: auto;
-	font-family: "微软雅黑", "Microsoft YaHei";
 }
 
 #about h1 {
