@@ -906,9 +906,9 @@ $(function(){
   function switchMouseCursor() {
     var agent = navigator.userAgent;
     if (agent.indexOf("Windows NT 5") >= 0) {
-      fakeMouse.attr("src", "/images/mouse_arrow_windows.png");
+      fakeMouse.attr("src", "./assets/mouse-arrow.png");
     } else if (agent.indexOf("Mac OS X") >= 0) {
-      fakeMouse.attr("src", "/images/mouse_arrow_mac.png");
+      fakeMouse.attr("src", "./assets/mouse-arrow.png");
     }
   }
 
