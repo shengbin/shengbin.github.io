@@ -289,6 +289,8 @@ function girls_day() {
 	};
 	Apprise("他送你的礼物就是——", options_none);
 	Apprise("就是……", options_none);
+	Apprise("就是……", options_none);
+	Apprise("就是……", options_none);
 	Apprise("就是我啊！", options_a);
 	Apprise("你是不是有点吃惊？", options);
 	Apprise("你是不是觉得我也没什么了不起的？", options);
