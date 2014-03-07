@@ -117,3 +117,8 @@ h1 {
 	border-right: 1px solid #888;
 	padding-left: 20px;
 }
+
+a.external:after {
+	content:" "
+	url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeNpi/P//PwM6OHHiBIogIzZF6IpZ0HVZWFgwwhSA2CCaBVkCKskPpB4iizEcP378P8hKEAay+YH4A4wPwyiKkDGyOBMDEYAoRSzYwgUdAAQYAP8bVoFHLptvAAAAAElFTkSuQmCC);
+}
