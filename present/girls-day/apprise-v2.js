@@ -332,7 +332,11 @@ function girls_day() {
 	Apprise("是的，我很低调。", options);
 	Apprise("你男朋友创造了我，并把我送给了你。", options);
 	Apprise("从此你便与众不同。", options);
-	Apprise("对了，你男朋友还让我带了个纸条给你，等我走了你才能看到哦。", options);
+	Apprise("与众不同。", options);
+	Apprise("不同。", options);
+	Apprise("也就是说，他对别人，再也不会像对你这样好了。", options);
+
+	Apprise("这是你男朋友让我带给你的纸条，等我走了你才能看哦。", options);
 
 	var last_options = {
 		animation: 500,	// Animation speed
