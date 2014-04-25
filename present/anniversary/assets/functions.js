@@ -2,6 +2,14 @@ var $window = $(window),
     gardenCtx, gardenCanvas, $garden, garden;
 var clientWidth = $(window).width();
 var clientHeight = $(window).height();
+
+var together = new Date();
+together.setFullYear(2013, 3, 6);
+together.setHours(16);
+together.setMinutes(0);
+together.setSeconds(0);
+together.setMilliseconds(0);
+	
 $(function() {
     $loveHeart = $("#loveHeart");
     var a = $loveHeart.width() / 2;
@@ -114,8 +122,8 @@ function showMessages() {
 }
 function adjustWordsPosition() {
     $("#words").css("position", "absolute");
-    $("#words").css("top", $("#garden").position().top + 195);
-    $("#words").css("left", $("#garden").position().left + 70)
+    $("#words").css("top", $("#garden").position().top + 265);
+    $("#words").css("left", $("#garden").position().left + 100)
 }
 function adjustCodePosition() {
     $("#code").css("margin-top", ($("#garden").height() - $("#code").height()) / 2)
