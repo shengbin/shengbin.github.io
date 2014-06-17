@@ -44,4 +44,12 @@
   <loc>http://www.shengbin.me/enjoy/reading.html</loc>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>http://www.shengbin.me/present/anniversary</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.shengbin.me/present/girls-day/</loc>
+  <priority>0.64</priority>
+</url>
 </urlset>
