@@ -53,6 +53,11 @@ body {
     height:auto;
     width:100px;
 }
+.parent:after {
+	content: '\00a0\25be';
+	color: #BBB;
+}
+
 .nav ul ul li {
     -moz-transition:0.5s;
     -o-transition:0.5s;
@@ -69,20 +74,20 @@ body {
 }
 .nav ul li:hover ul li {
     opacity:1;
-    -moz-transition-delay:0.5s;
-    -o-transition-delay:0.5s;
-    -webkit-transition-delay:0.5s;
-    transition-delay:0.5s;
+    -moz-transition-delay:0.1s;
+    -o-transition-delay:0.1s;
+    -webkit-transition-delay:0.1s;
+    transition-delay:0.1s;
 }
 .nav ul ul li a {
     background:#333;
     border-color:#222;
     color:#fff;
     line-height:1px;
-    -moz-transition:1.5s;
-    -o-transition:1.5s;
-    -webkit-transition:1.5s;
-    transition:1.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+    -webkit-transition:0.5s;
+    transition:0.5s;
 }
 .nav ul li:hover ul li a {
     line-height:35px;
