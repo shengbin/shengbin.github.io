@@ -1,4 +1,6 @@
 shengbin.github.io
 ==================
 
-User Pages. Hosting Shengbin's personal website.
+Hosting Shengbin's personal website.
+
+See <http://www.shengbin.me> 
