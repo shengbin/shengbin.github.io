@@ -1,6 +1,6 @@
 shengbin.github.io
 ==================
 
-Hosting Shengbin's personal website.
+Hosting Shengbin's Home Page.
 
-See <http://www.shengbin.me> 
+See <http://www.shengbin.me>.
