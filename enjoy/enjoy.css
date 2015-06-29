@@ -1,22 +1,8 @@
-#movies {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-}
-#movies ul {
-	margin:0 0 0 -24px;
-}
-
 #radio {
 	width:420px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:40px;
-}
-#songs {
-	width:150px;
-	float:right;
-	margin:-220px 0 0 40px;
 }
 
 .tagline {
