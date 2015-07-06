@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+	background: #FAF9F5;
+	font-family: "Î¢ÈíÑÅºÚ", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 920px;
+	height: 1024px;
+	margin: auto;
+}
+
+#frame {
+	float: left;
+	width: 770px;
+	height: 1024px;
+	background-image: url(../assets/frame.jpg)
+}
+
+#left {
+	float: left;
+	width: 75px;
+	height: 1024px;
+	background-image: url(../assets/ribbon_left_large.png);	
+	background-repeat: no-repeat;
+}
+
+#right {
+	float:left;
+	width:75px;
+	height:1024px;
+	background-image:url(../assets/ribbon_right_large.png); 
+	background-repeat:no-repeat;
+}
+
+#nav {
+	position:absolute;
+	top:99px;
+	width:770px;
+	height: 77px;
+	background-image:url(../assets/ribbon_main.jpg);
+}
+
+#content {
+	height: 650px;
+	width: 432px;
+	margin-top:128px;
+	margin-left:169px;
+}
+
+h1 {
+	font-size: 32px;
+	color: #999999;
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	color: #999999;
+	text-align: center;
+}
+
+
+ul.navig {
+	position:absolute;
+	left:145px;
+	top:5px;	
+}
+
+ul.navig li {
+	display:inline;
+	padding-right: 45px;
+}
+
+ul.navig li a {
+	font-size: 24px;
+	font-weight:200;
+	color:#666;
+	text-decoration:none;
+}
+
+ul.navig li a:hover {	
+	color:black;
+}
+  
+a:link a:visited {
+	color:grey; text-decoration:none;
+}
+a:hover {
+	color:#FABCB4; text-decoration:none;
+}
+a:active {
+	color:black; text-decoration:none;
+}
