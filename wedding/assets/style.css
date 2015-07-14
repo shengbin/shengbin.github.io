@@ -2,7 +2,7 @@
 
 body {
 	background: #FAF9F5;
-	font-family: "Î¢ÈíÑÅºÚ", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	font-family: "å¾®è½¯é›…é»‘", "Microsoft YaHei", Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
@@ -34,6 +34,14 @@ body {
 	background-repeat:no-repeat;
 }
 
+.footer {
+    max-width: 900px;
+    margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
 #nav {
 	position:absolute;
 	top:99px;
@@ -42,11 +50,15 @@ body {
 	background-image:url(../assets/ribbon_main.jpg);
 }
 
+#top {
+	margin-top:96px;
+	margin-left:160px;
+}
+
 #content {
 	height: 650px;
-	width: 432px;
-	margin-top:128px;
-	margin-left:169px;
+	width: 520px;
+	margin-left:125px;
 }
 
 h1 {
@@ -64,7 +76,7 @@ h2 {
 
 ul.navig {
 	position:absolute;
-	left:145px;
+	left:176px;
 	top:5px;	
 }
 
