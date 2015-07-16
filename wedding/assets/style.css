@@ -15,50 +15,50 @@ body {
 	float: left;
 	width: 770px;
 	height: 1024px;
-	background-image: url(../assets/frame.jpg)
+	background-image: url(./frame.jpg)
 }
 
 #left {
 	float: left;
 	width: 75px;
 	height: 1024px;
-	background-image: url(../assets/ribbon_left_large.png);	
+	background-image: url(./ribbon_left_large.png);	
 	background-repeat: no-repeat;
 }
 
 #right {
-	float:left;
-	width:75px;
-	height:1024px;
-	background-image:url(../assets/ribbon_right_large.png); 
-	background-repeat:no-repeat;
+	float: left;
+	width: 75px;
+	height: 1024px;
+	background-image: url(./ribbon_right_large.png); 
+	background-repeat: no-repeat;
 }
 
 .footer {
-    max-width: 900px;
-    margin: auto;
+	max-width: 900px;
+	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
 
 #nav {
-	position:absolute;
-	top:99px;
-	width:770px;
+	position: absolute;
+	top: 99px;
+	width: 770px;
 	height: 77px;
-	background-image:url(../assets/ribbon_main.jpg);
+	background-image: url(./ribbon_main.jpg);
 }
 
 #top {
-	margin-top:96px;
-	margin-left:160px;
+	margin-top: 96px;
+	margin-left: 160px;
 }
 
 #content {
 	height: 650px;
 	width: 520px;
-	margin-left:125px;
+	margin-left: 125px;
 }
 
 h1 {
@@ -75,33 +75,36 @@ h2 {
 
 
 ul.navig {
-	position:absolute;
-	left:176px;
-	top:5px;	
+	position: absolute;
+	left: 176px;
+	top: 5px;	
 }
 
 ul.navig li {
-	display:inline;
+	display: inline;
 	padding-right: 45px;
 }
 
 ul.navig li a {
 	font-size: 24px;
-	font-weight:200;
-	color:#666;
-	text-decoration:none;
+	font-weight: 200;
+	color: #666;
+	text-decoration: none;
 }
 
 ul.navig li a:hover {	
-	color:black;
+	color: black;
 }
   
 a:link a:visited {
-	color:grey; text-decoration:none;
+	color: grey;
+	text-decoration: none;
 }
 a:hover {
-	color:#FABCB4; text-decoration:none;
+	color: #FABCB4;
+	text-decoration: none;
 }
 a:active {
-	color:black; text-decoration:none;
+	color: black;
+	text-decoration: none;
 }
