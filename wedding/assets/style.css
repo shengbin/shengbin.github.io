@@ -42,6 +42,11 @@ body {
 	text-align: center;
 }
 
+.centered {
+	margin: auto;
+	text-align: center;
+}
+
 #nav {
 	position: absolute;
 	top: 99px;
@@ -52,13 +57,13 @@ body {
 
 #top {
 	margin-top: 96px;
-	margin-left: 160px;
+	margin-left: 170px;
 }
 
 #content {
 	height: 650px;
-	width: 520px;
-	margin-left: 125px;
+	width: 480px;
+	margin-left: 145px;
 }
 
 h1 {
