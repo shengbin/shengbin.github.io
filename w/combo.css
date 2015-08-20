@@ -52,7 +52,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "Raleway" "HelveticaNeue-Light", Arial, sans-serif;
+		font: 14px/21px "Raleway", "HelveticaNeue-Light", Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -365,6 +365,7 @@ span.lineno {
 .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
+
 /* -----------------------------------*/
 /* ----- 960px wide fancy grid! ----- */
 /* -----------------------------------*/
@@ -501,16 +502,21 @@ html { box-sizing: border-box; }
 .text-turquoise a { color: #0fbfcf; }
 .bg-turquoise     { background-color: #0fbfcf !important; }
 
+.border-red { border-color: #c32136 !important; }
+.text-red   { color: #c32136; }
+.text-red a { color: #c32136; }
+.bg-red     { background-color: #c32136 !important; }
+
 
 /* ----- per-post colors! ----- */
 
   
   
   
-  nav .p-photos { border-color: #fab125; }
-  #photos { background-color: #fab125 !important; color: #f8f8f8; }
+  nav .p-photos { border-color: #49a7e9; }
+  #photos { background-color: #49a7e9 !important; color: #f8f8f8; }
   #photos a { color: #f8f8f8; }
-  #photos .sectiondivider { color: #fab125; }
+  #photos .sectiondivider { color: #49a7e9; }
 
   
   
@@ -523,18 +529,18 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-invite { border-color: #9bcf2f; }
-  #invite { background-color: #9bcf2f !important; color: #f8f8f8; }
+  nav .p-invite { border-color: #c32136; }
+  #invite { background-color: #c32136 !important; color: #f8f8f8; }
   #invite a { color: #f8f8f8; }
-  #invite .sectiondivider { color: #9bcf2f; }
+  #invite .sectiondivider { color: #c32136; }
 
   
   
   
-  nav .p-intro { border-color: #f8f8f8; }
-  #intro { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-intro { border-color: #0fbfcf; }
+  #intro { background-color: #0fbfcf !important; color: #111111; }
   #intro a { color: #111111; }
-  #intro .sectiondivider { color: #f8f8f8; }
+  #intro .sectiondivider { color: #0fbfcf; }
 
 
 
@@ -688,7 +694,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .section:first-of-type {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 
