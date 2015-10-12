@@ -521,6 +521,14 @@ html { box-sizing: border-box; }
   
   
   
+  nav .p-scene { border-color: #fab125; }
+  #scene { background-color: #fab125 !important; color: #f8f8f8; }
+  #scene a { color: #f8f8f8; }
+  #scene .sectiondivider { color: #fab125; }
+
+  
+  
+  
   nav .p-photos { border-color: #49a7e9; }
   #photos { background-color: #49a7e9 !important; color: #f8f8f8; }
   #photos a { color: #f8f8f8; }
