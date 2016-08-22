@@ -135,3 +135,16 @@ a.external:after {
 	content:" "
 	url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeNpi/P//PwM6OHHiBIogIzZF6IpZ0HVZWFgwwhSA2CCaBVkCKskPpB4iizEcP378P8hKEAay+YH4A4wPwyiKkDGyOBMDEYAoRSzYwgUdAAQYAP8bVoFHLptvAAAAAElFTkSuQmCC);
 }
+
+#radio {
+	width:420px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+
+.tagline {
+    margin:auto;
+    text-align:center;
+    font-size: 18px;
+}
