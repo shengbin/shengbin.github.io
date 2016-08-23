@@ -137,8 +137,7 @@ a.external:after {
 }
 
 #radio {
-	width:420px;
-	margin-left:auto;
+	margin-left:-70px;
 	margin-right:auto;
 	margin-top:40px;
 }
