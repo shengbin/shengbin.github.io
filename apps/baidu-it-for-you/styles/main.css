@@ -117,7 +117,7 @@ input#search:active, input#search.active, input#lucky:active, input#lucky.active
 }
 
 input.link {
-    width: 312px;
+    width: 400px;
     font-size: 1.2em;
     text-align: center;
     border: 1px solid #c2c9ff;
@@ -163,7 +163,7 @@ a.link_button:hover, a.link_button.hover {
 
 #link_message {
     z-index: 99;
-    width: 328px;
+    width: 400px;
     height: 24px;
     line-height: 24px;
     background-color: #186700;
