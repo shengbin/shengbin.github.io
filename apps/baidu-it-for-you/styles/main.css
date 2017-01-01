@@ -43,7 +43,7 @@ input.text:focus {
 }
 
 input#search, input#lucky {
-    background: url("./assets/button.png") repeat scroll center transparent;
+    background: url("../assets/button.png") repeat scroll center transparent;
     border: medium none;
     color: black;
     cursor: pointer;
