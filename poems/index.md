@@ -297,4 +297,4 @@ title: 诗词
 
 	**
 
-	本页作品从上到下按创作时间倒序排列。汉语古诗文爱好者欢迎访问以下网站：https://verse.shengbin.me。
+<small>本页作品从上到下按创作时间倒序排列。汉语古诗文爱好者欢迎访问以下网站：<a href="https://verse.shengbin.me">https://verse.shengbin.me</a>。</small>
